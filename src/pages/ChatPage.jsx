@@ -641,10 +641,6 @@ export function ChatPage() {
                   Summary Mode merangkum materi yang Anda ketik langsung menjadi
                   format tetap: gagasan utama, poin kunci, dan yang wajib diingat.
                 </p>
-                <p>
-                  Riwayat percakapan dan status quiz aktif disimpan di <code>sessionStorage</code>{' '}
-                  agar refresh tidak menghapus sesi berjalan.
-                </p>
                 {activeQuiz ? (
                   <div className="rounded-[1.25rem] bg-muted/70 p-4">
                     <p className="font-semibold text-foreground">Topik quiz aktif</p>

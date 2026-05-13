@@ -65,9 +65,6 @@ export function LandingPage() {
 
         <section className="grid flex-1 items-center gap-12 py-14 lg:grid-cols-[1.08fr_0.92fr] lg:py-20">
           <div className="flex flex-col gap-8">
-            <Badge className="w-fit" variant="outline">
-              Slate + Blue + Teal
-            </Badge>
 
             <div className="flex flex-col gap-5">
               <h1 className="max-w-3xl font-serif text-5xl leading-tight text-balance text-foreground sm:text-6xl lg:text-7xl">
@@ -94,9 +91,7 @@ export function LandingPage() {
 
             <div className="grid gap-4 sm:grid-cols-3">
               {[
-                ['2 mode inti', 'Explain + Quiz'],
-                ['Sesi lokal', 'sessionStorage'],
-                ['Deploy siap', 'Vercel + serverless'],
+                ['Mode inti', 'Explain, Quiz, Summary']
               ].map(([label, value]) => (
                 <div
                   key={label}
